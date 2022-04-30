@@ -233,6 +233,12 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.modal-close-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .overlay{
     min-width: 1600px;
     height: 600px;
@@ -332,15 +338,18 @@ img {
 }
 
 .image-label{
+    
+    
+}
+
+.image-desctop-descr {
     position: absolute;
+
     display: block;
 
     bottom: 0;
     border: 1px solid rgba(0, 0, 0, 1);
     width: 100%;
-}
-
-.image-desctop-descr {
     
    color: rgba(255, 255, 255, 1);
    background-color: rgba(47, 48, 58, 0.8);
@@ -683,7 +692,7 @@ img {
     font-size: 18px;
     line-height: 1.55;
     padding: 63px 24px;
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition-property: transform;
     transition-duration: var(--duration-time);
     transition-timing-function: var(--timing-function);
